@@ -1,6 +1,6 @@
 ## Nick Clunes
 
-Founder, [Digital Broker Labs](https://digitalbrokerlabs.dev): technology that gives Australian mortgage brokers a technical edge, and the same engineering for licensees, lenders, mortgage managers and aggregators. Ten years shipping software, still writing loans.
+Founder, [Digital Broker Labs](https://digitalbrokerlabs.dev): technology that gives Australian mortgage brokers a technical edge, and the same engineering for licensees, lenders, mortgage managers and aggregators. 
 
 **Stack:** TypeScript · Next.js · PostgreSQL · Supabase · Python · Swift
 **In production:** [MyLoanBook](https://myloanbook.au), trail-book management for brokers. Internal tooling for compliance files and commercial servicing.

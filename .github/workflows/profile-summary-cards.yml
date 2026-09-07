@@ -1,0 +1,31 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    - cron: '17 16 * * *' # daily, 02:17 Sydney (AEST)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # SUMMARY_GITHUB_TOKEN is a fine-grained PAT with read access to private
+          # repos so totals include private activity. Until it is set, the
+          # built-in token is used and only public repos are counted.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: 'main'
+          UTC_OFFSET: 10
+          # Hide languages that only appear via vendored dependencies or old scaffolds.
+          EXCLUDE: 'C,C++,Cython,Fortran,Meson,Roff,Smarty,Lua,PowerShell,Batchfile,Hack,PHP,C#,Procfile'
+          AUTO_PUSH: true
+          THEME: 'github_dark'
+          NAME: 'Nick Clunes'

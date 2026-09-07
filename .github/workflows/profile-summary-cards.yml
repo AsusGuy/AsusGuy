@@ -27,5 +27,6 @@ jobs:
           # Hide languages that only appear via vendored dependencies or old scaffolds.
           EXCLUDE: 'C,C++,Cython,Fortran,Meson,Roff,Smarty,Lua,PowerShell,Batchfile,Hack,PHP,C#,Procfile'
           AUTO_PUSH: true
-          THEME: 'github_dark'
+          # Transparent theme renders cleanly on both light and dark GitHub.
+          THEME: 'transparent'
           NAME: 'Nick Clunes'

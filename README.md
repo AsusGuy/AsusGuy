@@ -16,8 +16,8 @@
 ### What I build
 
 - **For brokers and brokerages:** trail, clawback and repricing intelligence, compliance file automation, servicing and lodgement tooling. Software a brokerage owns outright.
-- **For licensees, lenders, mortgage managers and aggregators:** platforms, portals, document pipelines and integrations (ApplyOnline, CDR, Equifax, aggregator statements).
-- **How:** AI coding agents do the scaffolding, tests and first drafts. Every line that ships is reviewed by me. Product cores never depend on a model we can't host, version or explain.
+- **For licensees, lenders, mortgage managers and aggregators:** platforms, portals, document pipelines and integrations.
+- **How:** AI coding agents assist with the boiler plate, scaffolding, tests and first drafts. Every line that ships is reviewed by me, with business logic remaining private. Product cores never depend on a model we can't host, version or explain.
 
 ### In production
 

@@ -14,6 +14,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           # SUMMARY_GITHUB_TOKEN is a fine-grained PAT with read access to private
@@ -26,7 +27,23 @@ jobs:
           UTC_OFFSET: 10
           # Hide languages that only appear via vendored dependencies or old scaffolds.
           EXCLUDE: 'C,C++,Cython,Fortran,Meson,Roff,Smarty,Lua,PowerShell,Batchfile,Hack,PHP,C#,Procfile'
-          AUTO_PUSH: true
+          # We commit the cards ourselves after recolouring (see below).
+          AUTO_PUSH: false
           # Transparent theme renders cleanly on both light and dark GitHub.
           THEME: 'transparent'
           NAME: 'Nick Clunes'
+
+      - name: Recolour Python (linguist blue is too close to TypeScript blue)
+        run: sed -i 's/3572A5/2ea043/Ig' profile-summary-card-output/transparent/*.svg
+
+      - name: Commit generated cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile-summary-card-output
+          if git diff --staged --quiet; then
+            echo 'Cards unchanged; nothing to commit.'
+          else
+            git commit -m 'Generate profile summary cards'
+            git push origin HEAD:main
+          fi

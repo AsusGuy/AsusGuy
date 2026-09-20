@@ -17,13 +17,15 @@
 
 - **For brokers and brokerages:** trail, clawback and repricing intelligence, compliance file automation, servicing and lodgement tooling. Software a brokerage owns outright.
 - **For licensees, lenders, mortgage managers and aggregators:** platforms, portals, document pipelines and integrations.
-- **How:** AI coding agents assist with the boiler plate, scaffolding, tests and first drafts. Every line that ships is reviewed by me, with business logic remaining private. Product cores never depend on a model we can't host, version or explain.
+- **How:** My approach is to solve challenges I have encountered myself, and understand at a deep level. I also try to be efficient, for example most of my projects rely on some key calculations so I wrote API's in Go/Golang to serve these applications quickly and allow for faster builds. 
 
 ### In production
 
 | | |
 | --- | --- |
 | **[MyLoanBook](https://myloanbook.au)** | Trail-book management for mortgage brokers: at-risk alerts, clawback exposure, repricing workflows, book valuation. Deterministic engines on PostgreSQL with row-level security and mandatory MFA. No LLM in the product. |
+| **[Polli AI](https://polliai.app)** | A Chat Bot written to assist brokers both new and old find faster policy answers, delivered in the way we actually need them to be. The application uses a network like effect where brokers can report back from their meetings with BDM's, and once reviewed this is then accessible. |
+| **[AggregateIQ](https://aggregateiq.au)** | Build as a bespoke solution for our aggregation business, now licensing to other small aggregators, this software provies a full management platform, CRM, PowerBI like reporting and ongoing broker management. The powerhouse with plugins for micro aggregation businesses. |
 | **Internal tooling** | LoanCompli (compliance document extraction, on-device models) and Commercial PowerHub (18-scenario commercial servicing) run our own operations. Not for sale. |
 
 ### Principles

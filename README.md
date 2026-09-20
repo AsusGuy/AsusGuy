@@ -7,7 +7,6 @@
 
 <p align="center">
   <a href="https://digitalbrokerlabs.dev">digitalbrokerlabs.dev</a> ·
-  <a href="https://myloanbook.au">myloanbook.au</a> ·
   <a href="https://linkedin.com/in/nickclunes">LinkedIn</a>
 </p>
 
@@ -25,19 +24,18 @@
 | --- | --- |
 | **[MyLoanBook](https://myloanbook.au)** | Trail-book management for mortgage brokers: at-risk alerts, clawback exposure, repricing workflows, book valuation. Deterministic engines on PostgreSQL with row-level security and mandatory MFA. No LLM in the product. |
 | **[Polli AI](https://polliai.app)** | A Chat Bot written to assist brokers both new and old find faster policy answers, delivered in the way we actually need them to be. The application uses a network like effect where brokers can report back from their meetings with BDM's, and once reviewed this is then accessible. |
-| **[AggregateIQ](https://aggregateiq.au)** | Build as a bespoke solution for our aggregation business, now licensing to other small aggregators, this software provies a full management platform, CRM, PowerBI like reporting and ongoing broker management. The powerhouse with plugins for micro aggregation businesses. |
+| **[AggregateIQ](https://aggregateiq.au)** | Built as a bespoke solution for our aggregation business, now licensing to other small aggregators. This software provies a full management platform, CRM, PowerBI like reporting and ongoing broker management. The powerhouse with plugins for micro aggregation businesses. |
 | **Internal tooling** | LoanCompli (compliance document extraction, on-device models) and Commercial PowerHub (18-scenario commercial servicing) run our own operations. Not for sale. |
 
 ### Principles
 
-1. Your data runs where your model runs: in Australia, on infrastructure you can name.
-2. Rented models are swappable parts, never the engine.
-3. The unit price falls, the bill rises. Budget tokens per task, not price per token.
-4. Speed comes from agents. Accountability comes from a named engineer.
+1. Limit AI > Slapping AI on everything is not the solution, I aim to build real solutions. 
+2. Keep it Simple > AI allows people to build quickly, however also allows people to solve non-existent problems. 
+3. Security is Everything > Don't store data you don't need to, write strong, secure systems. Don't roll your own auth. 
 
 ### Stack
 
-`TypeScript` `Next.js` `React` `PostgreSQL` `Go` `Python` `Swift` `Qdrant` `Ollama` `Docker` `Vercel & AWS`
+`TypeScript` `Next.js` `React & Vite` `PostgreSQL` `Go` `Python` `Swift` `Qdrant` `Ollama` `Docker` `AWS`
 
 ### Activity
 
@@ -50,7 +48,7 @@
 
 <sub>Most of the work is in private repositories. The charts include private activity as aggregate numbers only.</sub>
 
-### Public tools
+### Public tools - Old Non-AI Gen Projects - my hand-written code has since become much better lol
 
 - [SimpleBID](https://github.com/AsusGuy/SimpleBID): desktop tool that drafts Best Interests Duty notes.
 - [CommercialServicing](https://github.com/AsusGuy/CommercialServicing): runs 18 commercial servicing scenarios at once, full-doc versus lease-doc with rate stress.

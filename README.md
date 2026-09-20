@@ -35,7 +35,7 @@
 
 ### Stack
 
-`TypeScript` `Next.js` `React` `PostgreSQL` `Supabase` `Python` `Swift / SwiftUI` `Qdrant` `Ollama` `Docker` `Vercel (Sydney)`
+`TypeScript` `Next.js` `React` `PostgreSQL` `Go` `Python` `Swift` `Qdrant` `Ollama` `Docker` `Vercel & AWS`
 
 ### Activity
 

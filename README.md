@@ -12,7 +12,7 @@
 
 <br />
 
-**TLDR:** Self-taught developer with an interest in low level programming and languages like Perl for fun. Used Coddy.tech, Boot.dev and Fireship to learn JS, Typescript and React and using these skills to build some applications for our brokers to use. Learning every single day, trying to improve consistency and ability to recognise patterns to solve complex problems. 
+**TLDR:** Self-taught developer with an interest in low level programming and playing with languages like Perl for fun. Used Coddy.tech, Boot.dev and Fireship to learn JS, Typescript and React and using these skills to build some applications for our brokers to use. Learning every single day, trying to improve consistency and ability to recognise patterns to solve complex problems. 
 
 **Current goals**: **1:** use what I have learnt to save brokers time to allow them to spend more time with family, and **2:** save as much as I can for our home loan customers through the use of internal algorithms to determine the optimal time to reprice vs. switch lenders. 
 

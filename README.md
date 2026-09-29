@@ -18,7 +18,7 @@
 
 ### What I build
 
-- **For brokers and brokerages:** trail, clawback and repricing intelligence, compliance file automation, servicing and lodgement tooling. Software a brokerage owns outright.
+- **For brokers and brokerages:** trail, clawback and repricing intelligence, compliance file automation, servicing and lodgement tooling with no or minimal AI implementation unless required. 
 - **For licensees, lenders, mortgage managers and aggregators:** platforms, portals, document pipelines and integrations.
 - **How:** My approach is to solve challenges I have encountered myself, and understand at a deep level. I also try to be efficient, for example most of my projects rely on some key calculations so I wrote API's in Go/Golang to serve these applications quickly and allow for faster builds. 
 
